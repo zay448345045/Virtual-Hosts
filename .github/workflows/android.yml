@@ -5,6 +5,8 @@ on:
 #    branches: [ "main" ]
 #  pull_request:
 #    branches: [ "main" ]
+   paths:
+     - 'action.on' # 只有 特定 文件的更改才构建
 
 jobs:
   build:
